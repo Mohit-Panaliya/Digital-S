@@ -1,10 +1,21 @@
 import React from "react";
 
+import Link from "next/link";
+
+
 const Home = () => {
   return (
     <div>
+    
+        <Link href="/">
+        <a className="my-2 flex items-center space-x-1 text-indigo-500">
+          
+          <span className="font-bold text-3xl font-sans tracking-tight whitespace-nowrap">Next-js Dev</span>
+        </a>      
+        </Link>
+   
       <div className="w-[70vw] h-[100vh]">
-        <svg
+        {/* <svg
           width=""
           height=""
           viewBox="0 0 6000 4000"
@@ -456,7 +467,7 @@ const Home = () => {
               Tunis
             </text>
           </g>
-        </svg>
+        </svg> */}
       </div>
 
       <div>
